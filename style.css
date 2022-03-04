@@ -1,12 +1,15 @@
 @keyframes changeColor{
     0%{background-color: blue;
-    border-radius: 0px;}
+    border-radius: 0px;
+    width: 200px;}
 
     50%{background-color: greenyellow;
-    border-radius: 55px;}
+    border-radius: 55px;
+    width: 400px;}
 
     100%{background-color: red;
-        border-radius: 110px;}
+        border-radius: 110px;
+        width: 200px}
 }
 
 .box{
@@ -14,7 +17,7 @@
     height: 200px;
     border-style: solid;
     animation-name: changeColor;
-    animation-duration: 3s;
+    animation-duration: 10s;
     margin: auto;
 }
 
