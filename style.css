@@ -1,27 +1,56 @@
+    /*animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+
+/*@keyframes move{
+    0%{left: 0px;}
+    50%{left: 150px;}
+    100%{left: 300px;}
+}*/
+
 @keyframes changeColor{
     0%{background-color: blue;
     border-radius: 0px;
-    width: 200px;}
+    width: 100px;}
 
     50%{background-color: greenyellow;
     border-radius: 55px;
     width: 400px;}
 
     100%{background-color: red;
-        border-radius: 110px;
+        border-radius: 220px;
         width: 200px}
 }
 
 .box{
-    margin: auto;
-    width: 200px;
-    height: 200px;
+    position: relative;
+    /*margin: auto;*/
+    width: 100px;
+    height: 100px;
     border-style: solid;
+    margin-bottom: 10px;
+
     animation-name: changeColor;
     animation-duration: 6s;
-    animation-delay: 2s;
-    /*animation-fill-mode: forwards;*/
-    /*animation-fill-mode: backwards;*/
-    animation-fill-mode: both
-}
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
 
+    .div1{
+        animation-timing-function: linear;
+    }
+
+    .div2{
+        animation-timing-function: ease;
+    }
+
+    .div3{
+        animation-timing-function: ease-in;
+    }
+
+    .div4{
+        animation-timing-function: ease-out;
+    }
+
+    .div5{
+        animation-timing-function: ease-in-out;
+    }
