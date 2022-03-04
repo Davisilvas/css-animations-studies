@@ -1,7 +1,11 @@
 @keyframes changeColor{
-    from{background-color: blue;
+    0%{background-color: blue;
     border-radius: 0px;}
-    to{background-color: red;
+
+    50%{background-color: greenyellow;
+    border-radius: 55px;}
+
+    100%{background-color: red;
         border-radius: 110px;}
 }
 
@@ -10,7 +14,7 @@
     height: 200px;
     border-style: solid;
     animation-name: changeColor;
-    animation-duration: 5s;
+    animation-duration: 3s;
     margin: auto;
 }
 
