@@ -13,11 +13,13 @@
 }
 
 .box{
+    margin: auto;
     width: 200px;
     height: 200px;
     border-style: solid;
     animation-name: changeColor;
-    animation-duration: 10s;
-    margin: auto;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    /*animation-delay: -3s;*/
 }
 
