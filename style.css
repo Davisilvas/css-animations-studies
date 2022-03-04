@@ -1,0 +1,16 @@
+@keyframes changeColor{
+    from{background-color: blue;
+    border-radius: 0px;}
+    to{background-color: red;
+        border-radius: 110px;}
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    animation-name: changeColor;
+    animation-duration: 5s;
+    margin: auto;
+}
+
